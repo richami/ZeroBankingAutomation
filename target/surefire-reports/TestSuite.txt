@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.522 s <<< FAILURE! - in TestSuite
+com.bank.testcases.LoginTest.verfyLogin  Time elapsed: 1.942 s  <<< FAILURE!
+java.lang.AssertionError: Tittle does not match expected [Zero - Account Summary] but found [Zero - Log in]
+	at com.bank.testcases.LoginTest.verfyLogin(LoginTest.java:40)
+

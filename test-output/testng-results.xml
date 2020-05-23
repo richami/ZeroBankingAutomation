@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38220" started-at="2020-05-20T21:29:07 EDT" finished-at="2020-05-20T21:29:46 EDT">
+  <suite name="Suite" duration-ms="39133" started-at="2020-05-23T16:44:19 EDT" finished-at="2020-05-23T16:44:58 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38220" started-at="2020-05-20T21:29:07 EDT" finished-at="2020-05-20T21:29:46 EDT">
+    <test name="Test" duration-ms="39133" started-at="2020-05-23T16:44:19 EDT" finished-at="2020-05-23T16:44:58 EDT">
       <class name="com.bank.testcases.WelcomeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.testcases.WelcomeTest@3891771e]" name="setup" is-config="true" duration-ms="10502" started-at="2020-05-20T21:29:08 EDT" finished-at="2020-05-20T21:29:18 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.testcases.WelcomeTest@3891771e]" name="setup" is-config="true" duration-ms="12118" started-at="2020-05-23T16:44:19 EDT" finished-at="2020-05-23T16:44:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.bank.testcases.WelcomeTest@3891771e]" name="signin" duration-ms="1439" started-at="2020-05-20T21:29:18 EDT" finished-at="2020-05-20T21:29:20 EDT">
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.bank.testcases.WelcomeTest@3891771e]" name="signin" duration-ms="1174" started-at="2020-05-23T16:44:31 EDT" finished-at="2020-05-23T16:44:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testcases.WelcomeTest@3891771e]" name="tearDown" is-config="true" duration-ms="1832" started-at="2020-05-20T21:29:20 EDT" finished-at="2020-05-20T21:29:21 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testcases.WelcomeTest@3891771e]" name="tearDown" is-config="true" duration-ms="1731" started-at="2020-05-23T16:44:32 EDT" finished-at="2020-05-23T16:44:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bank.testcases.WelcomeTest -->
       <class name="com.bank.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="setup" is-config="true" duration-ms="8700" started-at="2020-05-20T21:29:24 EDT" finished-at="2020-05-20T21:29:32 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="setup" is-config="true" duration-ms="8490" started-at="2020-05-23T16:44:36 EDT" finished-at="2020-05-23T16:44:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verfyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="verfyLogin" duration-ms="1699" started-at="2020-05-20T21:29:32 EDT" data-provider="sendData" finished-at="2020-05-20T21:29:34 EDT">
+        <test-method status="PASS" signature="verfyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="verfyLogin" duration-ms="1553" started-at="2020-05-23T16:44:44 EDT" data-provider="sendData" finished-at="2020-05-23T16:44:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="tearDown" is-config="true" duration-ms="1113" started-at="2020-05-20T21:29:34 EDT" finished-at="2020-05-20T21:29:35 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="tearDown" is-config="true" duration-ms="1174" started-at="2020-05-23T16:44:46 EDT" finished-at="2020-05-23T16:44:47 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="setup" is-config="true" duration-ms="7559" started-at="2020-05-20T21:29:35 EDT" finished-at="2020-05-20T21:29:43 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="setup" is-config="true" duration-ms="7608" started-at="2020-05-23T16:44:47 EDT" finished-at="2020-05-23T16:44:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verfyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="verfyLogin" duration-ms="1539" started-at="2020-05-20T21:29:43 EDT" data-provider="sendData" finished-at="2020-05-20T21:29:44 EDT">
+        <test-method status="FAIL" signature="verfyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="verfyLogin" duration-ms="1470" started-at="2020-05-23T16:44:55 EDT" data-provider="sendData" finished-at="2020-05-23T16:44:56 EDT">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="tearDown" is-config="true" duration-ms="1146" started-at="2020-05-20T21:29:45 EDT" finished-at="2020-05-20T21:29:46 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testcases.LoginTest@78ac1102]" name="tearDown" is-config="true" duration-ms="1084" started-at="2020-05-23T16:44:57 EDT" finished-at="2020-05-23T16:44:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

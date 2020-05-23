@@ -1,0 +1,5 @@
+com\bank\testcases\LoginTest.class
+com\bank\testcases\AddPayeeTest.class
+com\bank\testcases\PayBillsTest.class
+com\bank\testcases\AccountSummaryTest.class
+com\bank\testcases\WelcomeTest.class
